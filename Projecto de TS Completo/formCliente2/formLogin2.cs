@@ -31,7 +31,7 @@ namespace formCliente2
             {
                 // Configurar ligação à Base de Dados
                 conn = new SqlConnection();
-                conn.ConnectionString = String.Format(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename='C:\Users\alber\Documents\GitHub\ProjectoTS\Projecto de TS Completo\ProjectoDeTS\Users.mdf';Integrated Security=True");
+                conn.ConnectionString = String.Format(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename='C:\Projecto de TS Completo\ProjectoDeTS\Users.mdf';Integrated Security=True");
                 // Abrir ligação à Base de Dados
                 conn.Open();
 
@@ -90,7 +90,7 @@ namespace formCliente2
             {
                 // Configurar ligação à Base de Dados
                 conn = new SqlConnection();
-                conn.ConnectionString = String.Format(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename='C:\Users\alber\Documents\GitHub\ProjectoTS\Projecto de TS Completo\ProjectoDeTS\Users.mdf';Integrated Security=True");
+                conn.ConnectionString = String.Format(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename='C:\Projecto de TS Completo\ProjectoDeTS\Users.mdf';Integrated Security=True");
 
                 // Abrir ligação à Base de Dados
                 conn.Open();

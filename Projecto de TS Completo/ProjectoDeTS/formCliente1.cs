@@ -74,7 +74,7 @@ namespace ProjectoDeTS
         private void carregarConversa()
         {
             tbxConversa.Text = "";
-            string fileDir = @"C:\Users\alber\Desktop\Projecto de TS Compl,eto\Server\conversa.txt";
+            string fileDir = @"C:\Projecto de TS Completo\Server\conversa.txt";
 
             try
             {

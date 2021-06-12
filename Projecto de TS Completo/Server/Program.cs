@@ -85,8 +85,7 @@ namespace ConsoleApplication1
                     case ProtocolSICmdType.DATA:
                         Console.WriteLine(protocolSI.GetStringFromData());
 
-                        
-                        string caminho = @"C:\Users\alber\Desktop\Projecto de TS Compl,eto\Server\conversa.txt";
+                        string caminho = @"C:\Projecto de TS Completo\Server\conversa.txt";
                         FileStream fs = new FileStream(caminho, FileMode.Append, FileAccess.Write);
                         // criar o buffer binário de escrita
                         BinaryWriter bw = new BinaryWriter(fs);

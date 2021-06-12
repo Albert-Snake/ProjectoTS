@@ -28,4 +28,24 @@ Alberto Desconectou do Servidor*
 12/06/2021 18:22:58
  : Tudo Bem ??/
 12/06/2021 18:23:08
- Desconectou do Servidor
+ Desconectou do Servidor1
+12/06/2021 21:40:03
+alberto Entrou No Servidor.
+12/06/2021 21:40:25
+joao Entrou No Servidor.
+12/06/2021 21:41:58
+joao Entrou No Servidor1
+12/06/2021 21:42:15
+alberto Entrou No Servidor3
+12/06/2021 21:42:25
+joao Desconectou do Servidor6
+12/06/2021 21:42:27
+alberto Desconectou do Servidor.
+12/06/2021 21:44:44
+joao Entrou No Servidor1
+12/06/2021 21:44:45
+alberto Entrou No Servidor6
+12/06/2021 21:44:59
+alberto Desconectou do Servidor3
+12/06/2021 21:45:19
+joao Desconectou do Servidor

@@ -71,6 +71,7 @@ namespace formCliente2
             this.tbxConversa.Multiline = true;
             this.tbxConversa.Name = "tbxConversa";
             this.tbxConversa.ReadOnly = true;
+            this.tbxConversa.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.tbxConversa.Size = new System.Drawing.Size(776, 366);
             this.tbxConversa.TabIndex = 4;
             this.tbxConversa.TextChanged += new System.EventHandler(this.tbxConversa_TextChanged);
