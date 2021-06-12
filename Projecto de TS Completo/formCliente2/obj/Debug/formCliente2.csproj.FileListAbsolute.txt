@@ -23,3 +23,16 @@ C:\Users\alber\Desktop\Projecto de TS Compl,eto\formCliente2\bin\Debug\formClien
 C:\Users\alber\Desktop\Projecto de TS Compl,eto\formCliente2\bin\Debug\formCliente2.pdb
 C:\Users\alber\Desktop\Projecto de TS Compl,eto\formCliente2\bin\Debug\ProtocolSI.dll
 C:\Users\alber\Desktop\Projecto de TS Compl,eto\formCliente2\obj\Debug\formCliente2.csproj.CopyComplete
+C:\Users\alber\Documents\GitHub\ProjectoTS\Projecto de TS Completo\formCliente2\bin\Debug\formCliente2.exe.config
+C:\Users\alber\Documents\GitHub\ProjectoTS\Projecto de TS Completo\formCliente2\bin\Debug\formCliente2.exe
+C:\Users\alber\Documents\GitHub\ProjectoTS\Projecto de TS Completo\formCliente2\bin\Debug\formCliente2.pdb
+C:\Users\alber\Documents\GitHub\ProjectoTS\Projecto de TS Completo\formCliente2\bin\Debug\ProtocolSI.dll
+C:\Users\alber\Documents\GitHub\ProjectoTS\Projecto de TS Completo\formCliente2\obj\Debug\formCliente2.csprojAssemblyReference.cache
+C:\Users\alber\Documents\GitHub\ProjectoTS\Projecto de TS Completo\formCliente2\obj\Debug\formCliente2.formCliente2.resources
+C:\Users\alber\Documents\GitHub\ProjectoTS\Projecto de TS Completo\formCliente2\obj\Debug\formCliente2.formLogin2.resources
+C:\Users\alber\Documents\GitHub\ProjectoTS\Projecto de TS Completo\formCliente2\obj\Debug\formCliente2.Properties.Resources.resources
+C:\Users\alber\Documents\GitHub\ProjectoTS\Projecto de TS Completo\formCliente2\obj\Debug\formCliente2.csproj.GenerateResource.cache
+C:\Users\alber\Documents\GitHub\ProjectoTS\Projecto de TS Completo\formCliente2\obj\Debug\formCliente2.csproj.CoreCompileInputs.cache
+C:\Users\alber\Documents\GitHub\ProjectoTS\Projecto de TS Completo\formCliente2\obj\Debug\formCliente2.csproj.CopyComplete
+C:\Users\alber\Documents\GitHub\ProjectoTS\Projecto de TS Completo\formCliente2\obj\Debug\formCliente2.exe
+C:\Users\alber\Documents\GitHub\ProjectoTS\Projecto de TS Completo\formCliente2\obj\Debug\formCliente2.pdb

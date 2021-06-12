@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\alber\\Desktop\\Projecto de TS Compl,eto\\Server\\Server.csproj": {}
+    "C:\\Users\\alber\\Documents\\GitHub\\ProjectoTS\\Projecto de TS Completo\\Server\\Server.csproj": {}
   },
   "projects": {
-    "C:\\Users\\alber\\Desktop\\Projecto de TS Compl,eto\\Server\\Server.csproj": {
+    "C:\\Users\\alber\\Documents\\GitHub\\ProjectoTS\\Projecto de TS Completo\\Server\\Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alber\\Desktop\\Projecto de TS Compl,eto\\Server\\Server.csproj",
+        "projectUniqueName": "C:\\Users\\alber\\Documents\\GitHub\\ProjectoTS\\Projecto de TS Completo\\Server\\Server.csproj",
         "projectName": "Server",
-        "projectPath": "C:\\Users\\alber\\Desktop\\Projecto de TS Compl,eto\\Server\\Server.csproj",
+        "projectPath": "C:\\Users\\alber\\Documents\\GitHub\\ProjectoTS\\Projecto de TS Completo\\Server\\Server.csproj",
         "packagesPath": "C:\\Users\\alber\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alber\\Desktop\\Projecto de TS Compl,eto\\Server\\obj\\",
+        "outputPath": "C:\\Users\\alber\\Documents\\GitHub\\ProjectoTS\\Projecto de TS Completo\\Server\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\alber\\AppData\\Roaming\\NuGet\\NuGet.Config",

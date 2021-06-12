@@ -31,7 +31,7 @@ namespace formCliente2
         {
             this.btnRegistar = new System.Windows.Forms.Button();
             this.btnLogin = new System.Windows.Forms.Button();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.tbxPassword = new System.Windows.Forms.TextBox();
             this.tbxNome = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
@@ -43,6 +43,7 @@ namespace formCliente2
             this.btnRegistar.TabIndex = 11;
             this.btnRegistar.Text = "&Registar";
             this.btnRegistar.UseVisualStyleBackColor = true;
+            this.btnRegistar.Click += new System.EventHandler(this.btnRegistar_Click);
             // 
             // btnLogin
             // 
@@ -54,12 +55,12 @@ namespace formCliente2
             this.btnLogin.UseVisualStyleBackColor = true;
             this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
             // 
-            // textBox2
+            // tbxPassword
             // 
-            this.textBox2.Location = new System.Drawing.Point(12, 61);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(343, 20);
-            this.textBox2.TabIndex = 9;
+            this.tbxPassword.Location = new System.Drawing.Point(12, 61);
+            this.tbxPassword.Name = "tbxPassword";
+            this.tbxPassword.Size = new System.Drawing.Size(343, 20);
+            this.tbxPassword.TabIndex = 9;
             // 
             // tbxNome
             // 
@@ -75,7 +76,7 @@ namespace formCliente2
             this.ClientSize = new System.Drawing.Size(367, 200);
             this.Controls.Add(this.btnRegistar);
             this.Controls.Add(this.btnLogin);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.tbxPassword);
             this.Controls.Add(this.tbxNome);
             this.Name = "formLogin2";
             this.Text = "formLogin2";
@@ -88,7 +89,7 @@ namespace formCliente2
 
         private System.Windows.Forms.Button btnRegistar;
         private System.Windows.Forms.Button btnLogin;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox tbxPassword;
         private System.Windows.Forms.TextBox tbxNome;
     }
 }
