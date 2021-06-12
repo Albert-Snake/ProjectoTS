@@ -1,0 +1,28 @@
+C:\Users\alber\Desktop\Server\bin\Debug\netcoreapp3.1\Server.exe
+C:\Users\alber\Desktop\Server\bin\Debug\netcoreapp3.1\Server.deps.json
+C:\Users\alber\Desktop\Server\bin\Debug\netcoreapp3.1\Server.runtimeconfig.json
+C:\Users\alber\Desktop\Server\bin\Debug\netcoreapp3.1\Server.runtimeconfig.dev.json
+C:\Users\alber\Desktop\Server\bin\Debug\netcoreapp3.1\Server.dll
+C:\Users\alber\Desktop\Server\bin\Debug\netcoreapp3.1\Server.pdb
+C:\Users\alber\Desktop\Server\obj\Debug\netcoreapp3.1\Server.csprojAssemblyReference.cache
+C:\Users\alber\Desktop\Server\obj\Debug\netcoreapp3.1\Server.AssemblyInfoInputs.cache
+C:\Users\alber\Desktop\Server\obj\Debug\netcoreapp3.1\Server.AssemblyInfo.cs
+C:\Users\alber\Desktop\Server\obj\Debug\netcoreapp3.1\Server.csproj.CoreCompileInputs.cache
+C:\Users\alber\Desktop\Server\obj\Debug\netcoreapp3.1\Server.dll
+C:\Users\alber\Desktop\Server\obj\Debug\netcoreapp3.1\Server.pdb
+C:\Users\alber\Desktop\Server\obj\Debug\netcoreapp3.1\Server.genruntimeconfig.cache
+C:\Users\alber\Desktop\Projecto de TS Compl,eto\Server\obj\Debug\netcoreapp3.1\Server.csprojAssemblyReference.cache
+C:\Users\alber\Desktop\Projecto de TS Compl,eto\Server\obj\Debug\netcoreapp3.1\Server.AssemblyInfoInputs.cache
+C:\Users\alber\Desktop\Projecto de TS Compl,eto\Server\obj\Debug\netcoreapp3.1\Server.AssemblyInfo.cs
+C:\Users\alber\Desktop\Projecto de TS Compl,eto\Server\obj\Debug\netcoreapp3.1\Server.csproj.CoreCompileInputs.cache
+C:\Users\alber\Desktop\Projecto de TS Compl,eto\Server\obj\Debug\netcoreapp3.1\Server.dll
+C:\Users\alber\Desktop\Projecto de TS Compl,eto\Server\obj\Debug\netcoreapp3.1\Server.pdb
+C:\Users\alber\Desktop\Projecto de TS Compl,eto\Server\bin\Debug\netcoreapp3.1\Server.exe
+C:\Users\alber\Desktop\Projecto de TS Compl,eto\Server\bin\Debug\netcoreapp3.1\Server.deps.json
+C:\Users\alber\Desktop\Projecto de TS Compl,eto\Server\bin\Debug\netcoreapp3.1\Server.runtimeconfig.json
+C:\Users\alber\Desktop\Projecto de TS Compl,eto\Server\bin\Debug\netcoreapp3.1\Server.runtimeconfig.dev.json
+C:\Users\alber\Desktop\Projecto de TS Compl,eto\Server\bin\Debug\netcoreapp3.1\Server.dll
+C:\Users\alber\Desktop\Projecto de TS Compl,eto\Server\bin\Debug\netcoreapp3.1\Server.pdb
+C:\Users\alber\Desktop\Projecto de TS Compl,eto\Server\bin\Debug\netcoreapp3.1\ProtocolSI.dll
+C:\Users\alber\Desktop\Projecto de TS Compl,eto\Server\obj\Debug\netcoreapp3.1\Server.csproj.CopyComplete
+C:\Users\alber\Desktop\Projecto de TS Compl,eto\Server\obj\Debug\netcoreapp3.1\Server.genruntimeconfig.cache

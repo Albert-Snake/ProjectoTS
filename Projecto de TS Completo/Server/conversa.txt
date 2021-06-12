@@ -1,0 +1,31 @@
+/
+12/06/2021 17:11:40
+ Desconectou do Servidor1
+12/06/2021 17:12:43
+Alberto Entrou No Servidor1
+12/06/2021 17:12:47
+Claudia Entrou No Servidor$
+12/06/2021 17:12:58
+Claudia : ola$
+12/06/2021 17:13:02
+Alberto : ola6
+12/06/2021 17:13:04
+Alberto Desconectou do Servidor1
+12/06/2021 17:13:47
+Alberto Entrou No Servidor.
+12/06/2021 17:13:48
+Joao Entrou No Servidor3
+12/06/2021 17:13:59
+Joao Desconectou do Servidor6
+12/06/2021 17:14:01
+Alberto Desconectou do Servidor*
+12/06/2021 18:22:34
+ Entrou No Servidor*
+12/06/2021 18:22:36
+ Entrou No Servidor
+12/06/2021 18:22:49
+ : Ola%
+12/06/2021 18:22:58
+ : Tudo Bem ??/
+12/06/2021 18:23:08
+ Desconectou do Servidor

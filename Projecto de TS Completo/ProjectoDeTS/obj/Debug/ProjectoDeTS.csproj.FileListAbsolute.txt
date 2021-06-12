@@ -1,0 +1,24 @@
+C:\Users\alber\Desktop\ProjectoDeTS\bin\Debug\ProjectoDeTS.exe.config
+C:\Users\alber\Desktop\ProjectoDeTS\bin\Debug\ProjectoDeTS.exe
+C:\Users\alber\Desktop\ProjectoDeTS\bin\Debug\ProjectoDeTS.pdb
+C:\Users\alber\Desktop\ProjectoDeTS\obj\Debug\ProjectoDeTS.csprojAssemblyReference.cache
+C:\Users\alber\Desktop\ProjectoDeTS\obj\Debug\ProjectoDeTS.formCliente1.resources
+C:\Users\alber\Desktop\ProjectoDeTS\obj\Debug\ProjectoDeTS.formLogin1.resources
+C:\Users\alber\Desktop\ProjectoDeTS\obj\Debug\ProjectoDeTS.Properties.Resources.resources
+C:\Users\alber\Desktop\ProjectoDeTS\obj\Debug\ProjectoDeTS.csproj.GenerateResource.cache
+C:\Users\alber\Desktop\ProjectoDeTS\obj\Debug\ProjectoDeTS.csproj.CoreCompileInputs.cache
+C:\Users\alber\Desktop\ProjectoDeTS\obj\Debug\ProjectoDeTS.exe
+C:\Users\alber\Desktop\ProjectoDeTS\obj\Debug\ProjectoDeTS.pdb
+C:\Users\alber\Desktop\Projecto de TS Compl,eto\ProjectoDeTS\obj\Debug\ProjectoDeTS.csprojAssemblyReference.cache
+C:\Users\alber\Desktop\Projecto de TS Compl,eto\ProjectoDeTS\obj\Debug\ProjectoDeTS.formCliente1.resources
+C:\Users\alber\Desktop\Projecto de TS Compl,eto\ProjectoDeTS\obj\Debug\ProjectoDeTS.formLogin1.resources
+C:\Users\alber\Desktop\Projecto de TS Compl,eto\ProjectoDeTS\obj\Debug\ProjectoDeTS.Properties.Resources.resources
+C:\Users\alber\Desktop\Projecto de TS Compl,eto\ProjectoDeTS\obj\Debug\ProjectoDeTS.csproj.GenerateResource.cache
+C:\Users\alber\Desktop\Projecto de TS Compl,eto\ProjectoDeTS\obj\Debug\ProjectoDeTS.csproj.CoreCompileInputs.cache
+C:\Users\alber\Desktop\Projecto de TS Compl,eto\ProjectoDeTS\obj\Debug\ProjectoDeTS.exe
+C:\Users\alber\Desktop\Projecto de TS Compl,eto\ProjectoDeTS\obj\Debug\ProjectoDeTS.pdb
+C:\Users\alber\Desktop\Projecto de TS Compl,eto\ProjectoDeTS\bin\Debug\ProjectoDeTS.exe.config
+C:\Users\alber\Desktop\Projecto de TS Compl,eto\ProjectoDeTS\bin\Debug\ProjectoDeTS.exe
+C:\Users\alber\Desktop\Projecto de TS Compl,eto\ProjectoDeTS\bin\Debug\ProjectoDeTS.pdb
+C:\Users\alber\Desktop\Projecto de TS Compl,eto\ProjectoDeTS\bin\Debug\ProtocolSI.dll
+C:\Users\alber\Desktop\Projecto de TS Compl,eto\ProjectoDeTS\obj\Debug\ProjectoDeTS.csproj.CopyComplete
