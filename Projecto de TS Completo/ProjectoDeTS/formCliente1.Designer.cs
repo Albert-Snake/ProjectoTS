@@ -89,7 +89,7 @@ namespace ProjectoDeTS
             this.Controls.Add(this.btnEnviar);
             this.Controls.Add(this.tbxConversa);
             this.Name = "formCliente1";
-            this.Text = "formCliente1";
+            this.Text = "Garage Manager Chat";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.formCliente1_FormClosing);
             this.ResumeLayout(false);
             this.PerformLayout();

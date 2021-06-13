@@ -46,6 +46,8 @@ namespace ProjectoDeTS
             carregarConversa();
 
             timer1.Start();
+
+            this.Text = this.Text + " - Session of " + User;
         }
 
         private void MensagemDeEntrada()

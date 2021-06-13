@@ -44,7 +44,10 @@ namespace formCliente2
             MensagemDeEntrada();
             carregarConversa();
 
-            timer1.Start();        }
+            timer1.Start();
+
+            this.Text = this.Text + " - Session of " + User;
+        }
 
         private void MensagemDeEntrada()
         {

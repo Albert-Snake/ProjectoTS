@@ -90,7 +90,7 @@ namespace formCliente2
             this.Controls.Add(this.btnEnviar);
             this.Controls.Add(this.tbxConversa);
             this.Name = "formCliente2";
-            this.Text = "formCliente2";
+            this.Text = "Garage Manager Chat";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.formCliente2_FormClosing);
             this.ResumeLayout(false);
             this.PerformLayout();
