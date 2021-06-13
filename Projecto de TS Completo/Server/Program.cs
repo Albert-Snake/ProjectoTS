@@ -72,7 +72,7 @@ namespace ConsoleApplication1
                 {
                     int bytesRead = networkStream.Read(protocolSI.Buffer, 0, protocolSI.Buffer.Length);
                 }
-                finally
+                catch (Exception ex)
                 {
 
                 }
@@ -99,8 +99,16 @@ namespace ConsoleApplication1
                         ack = protocolSI.Make(ProtocolSICmdType.ACK);
 
                         //Enviar a mensagem para o cliente
-                        networkStream.Write(ack, 0, ack.Length);
-                        break;
+                        try
+                        {
+                            networkStream.Write(ack, 0, ack.Length);
+                            break;
+
+                        }
+                        catch (Exception ex)
+                        {
+                            break;
+                        }
 
                     case ProtocolSICmdType.EOT:
                         Console.WriteLine("Deixou o Chat");

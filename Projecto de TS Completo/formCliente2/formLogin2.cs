@@ -169,5 +169,22 @@ namespace formCliente2
             byte[] hash = GenerateSaltedHash(pass, salt);
             Register(username, hash, salt);
         }
+
+        private void btnLogin_Click_1(object sender, EventArgs e)
+        {
+            String password = tbxPassword.Text;
+            String username = tbxNome.Text;
+            if (VerifyLogin(username, password))
+            {
+                string nome = tbxNome.Text;
+                formCliente2 form2 = new formCliente2(nome);
+                form2.Show();
+                this.Hide();
+            }
+            else
+            {
+                MessageBox.Show("Utilizador inválido.");
+            }
+        }
     }
 }

@@ -47,6 +47,8 @@ namespace formCliente2
             timer1.Start();
 
             this.Text = this.Text + " - Session of " + User;
+
+            tbxConversa.Text = "";
         }
 
         private void MensagemDeEntrada()
@@ -65,28 +67,71 @@ namespace formCliente2
             }
 
         }
+
+        private void carregarFicheiro()
+        {
+            Stream myStream;
+            OpenFileDialog saveFileDialog1 = new OpenFileDialog();
+
+            if (saveFileDialog1.ShowDialog() == DialogResult.OK)
+            {
+                string filePath;
+                if ((myStream = saveFileDialog1.OpenFile()) != null)
+                {
+                    filePath = saveFileDialog1.FileName;
+                    // Code to write the stream goes here.
+                    myStream.Close();
+
+                    string msg = filePath + "\r\n";
+
+                    //Criar a mensagem
+                    byte[] packet = protocolSI.Make(ProtocolSICmdType.DATA, msg);
+
+                    //Enviar a mensagem pela ligação
+                    try
+                    {
+                        networkStream.Write(packet, 0, packet.Length);
+                    }
+                    finally
+                    {
+                    }
+
+                    while (protocolSI.GetCmdType() != ProtocolSICmdType.ACK)
+                    {
+                        networkStream.Read(protocolSI.Buffer, 0, protocolSI.Buffer.Length);
+                    }
+                }
+
+            }
+        }
         private void carregarConversa()
         {
-            tbxConversa.Text = "";
-            string fileDir = @"C:\Projecto de TS Completo\Server\conversa.txt";
-
             try
             {
+                string fileDir = @"C:\Projecto de TS Completo\Server\conversa.txt";
+
                 // Check if file already exists. If yes, delete it.     
                 if (File.Exists(fileDir))
                 {
-                   
+
                     // Open the stream and read it back.    
                     using (StreamReader sr = File.OpenText(fileDir))
                     {
                         string s = "";
+                        string msg = "";
                         while ((s = sr.ReadLine()) != null)
                         {
-                            tbxConversa.Text = tbxConversa.Text + s + "\r\n";
+                            msg = msg + s + "\r\n";
+                        }
+                        if (tbxConversa.Text != msg)
+                        {
+                            tbxConversa.Text = "";
+                            tbxConversa.Text = msg;
+                            tbxConversa.SelectionStart = tbxConversa.TextLength;
+                            tbxConversa.ScrollToCaret();
                         }
                         sr.Close();
                     }
-                    
                 }
                 else
                 {
@@ -106,7 +151,7 @@ namespace formCliente2
             tbxConversa.Text = tbxConversa.Text + "Eu: - " + tbxMensagem.Text + "\r\n\r\n";
 
             //Enviar mensagem do cliente para o servidor
-            string msg = "\r\n" + DateTime.Now + "\r\n" + User + " : " + tbxMensagem.Text;
+            string msg = DateTime.Now + "\r\n" + User + " : " + tbxMensagem.Text + "\r\n";
             tbxMensagem.Clear();
 
             //Criar a mensagem
@@ -123,7 +168,7 @@ namespace formCliente2
 
         private void btnFicheiro_Click(object sender, EventArgs e)
         {
-
+            carregarFicheiro();
         }
 
         private void tbxConversa_TextChanged(object sender, EventArgs e)
