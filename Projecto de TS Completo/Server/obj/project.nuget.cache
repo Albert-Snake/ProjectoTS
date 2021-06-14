@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0RnEg8jbxiLTZtQQyQza3nFTJhxocsOuU31sXBX+hS9bv2y/9OvcWj6EEM0PfJaS7lAfv+cWPByk9yTVLwBxeQ==",
+  "dgSpecHash": "943gU3pOWxzvwDtGswW8SjagKAMH2YLT6RyLC73AdmT9SgDsy6e9VkcZpR11/4ApsGbZ6NWfrxGZRnOWn2KgIQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Alberto\\Documents\\GitHub\\ProjectoTS\\Projecto de TS Completo\\Server\\Server.csproj",
+  "projectFilePath": "C:\\Projecto de TS Completo\\Server\\Server.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

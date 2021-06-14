@@ -16,16 +16,19 @@ namespace formCliente2
 {
     public partial class formCliente2 : Form
     {
+        //variaveis globais
         private const int PORT = 10000;
         NetworkStream networkStream;
         ProtocolSI protocolSI;
         TcpClient client;
         string User;
 
+
         public formCliente2(string nome)
         {
             InitializeComponent();
 
+            //copia o valor enviado do form Login para a variavel globar User
             User = nome;
 
             //Criar conjunto IP+PORT do servidor
@@ -41,25 +44,43 @@ namespace formCliente2
             networkStream = client.GetStream();
             protocolSI = new ProtocolSI();
 
+            //Envia uma mensagem de avisoa a informar que o utilizador entrou
             MensagemDeEntrada();
+
+            //carrega a conversa guardada no ficheiro txt
             carregarConversa();
 
+            //Permite que de 1 em 1 segundos verifique se ouve alteração na conversa
             timer1.Start();
 
+            //concatna ao nome do forme uma string a informar o nome do utilizador que inicioiu sessao 
             this.Text = this.Text + " - Session of " + User;
 
+            //limpa os valores da tbxConversa
             tbxConversa.Text = "";
+
+            //posiciona a scrollbar no fundo
+            tbxConversa.SelectionStart = tbxConversa.TextLength;
+            tbxConversa.ScrollToCaret();
         }
 
         private void MensagemDeEntrada()
         {
+            //mensagem escrita que será enviada para o servidor
             string msg = "\r\n" + DateTime.Now + "\r\n" + User + " Entrou No Servidor";
 
             //Criar a mensagem
             byte[] packet = protocolSI.Make(ProtocolSICmdType.DATA, msg);
 
             //Enviar a mensagem pela ligação
-            networkStream.Write(packet, 0, packet.Length);
+            try
+            {
+                networkStream.Write(packet, 0, packet.Length);
+            }
+            catch (Exception ex)
+            {
+
+            }
 
             while (protocolSI.GetCmdType() != ProtocolSICmdType.ACK)
             {
@@ -67,21 +88,27 @@ namespace formCliente2
             }
 
         }
-
         private void carregarFicheiro()
         {
+            //inicia a ligação
             Stream myStream;
+            //Cria um novo objecto SaveFileDialog1
             OpenFileDialog saveFileDialog1 = new OpenFileDialog();
 
             if (saveFileDialog1.ShowDialog() == DialogResult.OK)
             {
+                //Variavel onde será armazenada a localização do ficheiro
                 string filePath;
+
                 if ((myStream = saveFileDialog1.OpenFile()) != null)
                 {
+                    //guarda o caminho na variavel
                     filePath = saveFileDialog1.FileName;
-                    // Code to write the stream goes here.
+
+                    //fecha a ligação
                     myStream.Close();
 
+                    //mensagem a ser enviada com a localização do ficheiro
                     string msg = filePath + "\r\n";
 
                     //Criar a mensagem
@@ -108,21 +135,26 @@ namespace formCliente2
         {
             try
             {
+                //Directorio onde o ficheiro txt da conversa esta armazenado
                 string fileDir = @"C:\Projecto de TS Completo\Server\conversa.txt";
 
-                // Check if file already exists. If yes, delete it.     
+                //Verifica se o ficheiro existe.     
                 if (File.Exists(fileDir))
                 {
 
-                    // Open the stream and read it back.    
+                    // Abre o ficheiro e lê-o    
                     using (StreamReader sr = File.OpenText(fileDir))
                     {
+                        //variaveis
                         string s = "";
                         string msg = "";
+
                         while ((s = sr.ReadLine()) != null)
                         {
+                            //Guarda a conversa na variavel msg
                             msg = msg + s + "\r\n";
                         }
+                        //Compara se a tbxConversa tem o msm text que a string msg
                         if (tbxConversa.Text != msg)
                         {
                             tbxConversa.Text = "";
@@ -130,28 +162,29 @@ namespace formCliente2
                             tbxConversa.SelectionStart = tbxConversa.TextLength;
                             tbxConversa.ScrollToCaret();
                         }
+                        //fecha ligação
                         sr.Close();
                     }
                 }
                 else
                 {
-                    // Create a new file     
+                    //Cria um novo ficheiro    
                     FileStream fs = File.Create(fileDir);
                     fs.Close();
                 }
             }
-            finally { }
+            catch(Exception ex)
+            {
+
+            }
 
         }
 
-
-
         private void btnEnviar_Click(object sender, EventArgs e)
         {
-            tbxConversa.Text = tbxConversa.Text + "Eu: - " + tbxMensagem.Text + "\r\n\r\n";
-
             //Enviar mensagem do cliente para o servidor
             string msg = DateTime.Now + "\r\n" + User + " : " + tbxMensagem.Text + "\r\n";
+            //limpa a tbxMensagem
             tbxMensagem.Clear();
 
             //Criar a mensagem
@@ -178,9 +211,10 @@ namespace formCliente2
 
         private void formCliente2_FormClosing(object sender, FormClosingEventArgs e)
         {
-
+            //pergunta se quer mesmo sair o que irá terminar a sessão
             if (MessageBox.Show("Pretende mesmo Sair?", "SAIR DO PROGRAMA", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
             {
+                //Enviar msg a informar que se desconectou
                 string msg = "\r\n" + DateTime.Now + "\r\n" + User + " Desconectou do Servidor";
 
                 //Criar a mensagem
@@ -191,7 +225,7 @@ namespace formCliente2
                 {
                     networkStream.Write(packet, 0, packet.Length);
                 }
-                finally
+                catch (Exception ex)
                 {
                     
                 }

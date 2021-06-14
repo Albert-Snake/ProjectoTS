@@ -16,6 +16,7 @@ namespace formCliente2
 {
     public partial class formLogin2 : Form
     {
+        //variaveis globais
         private const int SALTSIZE = 8;
         private const int NUMBER_OF_ITERATIONS = 1000;
 

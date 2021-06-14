@@ -43,7 +43,6 @@ C:\Projecto de TS Completo\ProjectoDeTS\bin\Debug\ProjectoDeTS.exe.config
 C:\Projecto de TS Completo\ProjectoDeTS\bin\Debug\ProjectoDeTS.exe
 C:\Projecto de TS Completo\ProjectoDeTS\bin\Debug\ProjectoDeTS.pdb
 C:\Projecto de TS Completo\ProjectoDeTS\bin\Debug\ProtocolSI.dll
-C:\Projecto de TS Completo\ProjectoDeTS\obj\Debug\ProjectoDeTS.csproj.AssemblyReference.cache
 C:\Projecto de TS Completo\ProjectoDeTS\obj\Debug\ProjectoDeTS.formCliente1.resources
 C:\Projecto de TS Completo\ProjectoDeTS\obj\Debug\ProjectoDeTS.formLogin1.resources
 C:\Projecto de TS Completo\ProjectoDeTS\obj\Debug\ProjectoDeTS.Properties.Resources.resources
@@ -67,3 +66,4 @@ C:\Users\Alberto\Documents\GitHub\ProjectoTS\Projecto de TS Completo\ProjectoDeT
 C:\Users\Alberto\Documents\GitHub\ProjectoTS\Projecto de TS Completo\ProjectoDeTS\obj\Debug\ProjectoDeTS.csproj.CopyComplete
 C:\Users\Alberto\Documents\GitHub\ProjectoTS\Projecto de TS Completo\ProjectoDeTS\obj\Debug\ProjectoDeTS.exe
 C:\Users\Alberto\Documents\GitHub\ProjectoTS\Projecto de TS Completo\ProjectoDeTS\obj\Debug\ProjectoDeTS.pdb
+C:\Projecto de TS Completo\ProjectoDeTS\obj\Debug\ProjectoDeTS.csprojAssemblyReference.cache

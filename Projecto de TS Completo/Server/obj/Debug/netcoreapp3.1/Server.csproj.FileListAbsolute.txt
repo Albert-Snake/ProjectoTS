@@ -33,7 +33,6 @@ C:\Projecto de TS Completo\Server\bin\Debug\netcoreapp3.1\Server.runtimeconfig.d
 C:\Projecto de TS Completo\Server\bin\Debug\netcoreapp3.1\Server.dll
 C:\Projecto de TS Completo\Server\bin\Debug\netcoreapp3.1\Server.pdb
 C:\Projecto de TS Completo\Server\bin\Debug\netcoreapp3.1\ProtocolSI.dll
-C:\Projecto de TS Completo\Server\obj\Debug\netcoreapp3.1\Server.csproj.AssemblyReference.cache
 C:\Projecto de TS Completo\Server\obj\Debug\netcoreapp3.1\Server.AssemblyInfoInputs.cache
 C:\Projecto de TS Completo\Server\obj\Debug\netcoreapp3.1\Server.AssemblyInfo.cs
 C:\Projecto de TS Completo\Server\obj\Debug\netcoreapp3.1\Server.csproj.CoreCompileInputs.cache
@@ -56,3 +55,4 @@ C:\Users\Alberto\Documents\GitHub\ProjectoTS\Projecto de TS Completo\Server\obj\
 C:\Users\Alberto\Documents\GitHub\ProjectoTS\Projecto de TS Completo\Server\obj\Debug\netcoreapp3.1\Server.dll
 C:\Users\Alberto\Documents\GitHub\ProjectoTS\Projecto de TS Completo\Server\obj\Debug\netcoreapp3.1\Server.pdb
 C:\Users\Alberto\Documents\GitHub\ProjectoTS\Projecto de TS Completo\Server\obj\Debug\netcoreapp3.1\Server.genruntimeconfig.cache
+C:\Projecto de TS Completo\Server\obj\Debug\netcoreapp3.1\Server.csprojAssemblyReference.cache
